@@ -1,526 +1,440 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 * {
-	font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 body {
-	background: #ffffff;
+  background: #ffffff;
 }
 
-
 /**************GENERALES*****************/
-
 .btn {
-	font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
-    text-transform: uppercase;
-    color: #212529;
-    font-weight: 400;
-    background: #6ab11f;
-    border: none;
-    border-radius: 5px;
-    padding: 0.7rem 1.5rem;
-    cursor: pointer;
-    transition: all 0.4s ease;
-	color: #fff;
-
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #212529;
+  font-weight: 400;
+  background: #6ab11f;
+  border: none;
+  border-radius: 5px;
+  padding: 0.7rem 1.5rem;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  color: #fff;
 }
 
 .btn:hover {
-	
-    background: #82B64A;
-	color: #fff;
+  background: #82b64a;
+  color: #fff;
 }
 
 h2 {
-	font-size: 40px;
+  font-size: 40px;
 }
 
-/**************BANNER*****************/
-
-.banner{
-	position: relative;
-	width: 100%;
-	height: calc(100vh - 50px);
-	background-color: #F5F5F5;
-	background-size: cover;
-	background-position: center;
-	transition: all .1s ease-out;
-	background-image: url('../assets/img/banner-1.jpg');
-	animation: banner 28s infinite linear;
-}
-.banner-content{
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	height: 100%;
-	color: #FFF;
-	background-color: rgba(0, 22, 40, 0.335);
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-.banner-content h1{
-	margin: 0;
-	padding: 0;
-	padding-bottom: 30px;
-	font-size: 40px;
-	text-align: center;
-}
-/* .banner-content a{
-	text-decoration: none;
-	color: #FFF;
-	padding: 9px 20px;
-	border: 1px solid #FFF;
-	text-transform: uppercase;
-	transition: all .3s ease-in-out;
-} */
-/* .banner-content a:hover{
-	background-color: #fff;
-	color: #333;
-} */
-@keyframes banner{
-	0%{
-		background-image: url('../img/Fotos/portadadepanelsolar/slide2.png');
-	}
-	25%{
-		background-image: url('../img/Fotos/portadadepanelsolar/slide2.png');
-	}
-
-
-	26%{
-		background-image: url('../img/Fotos/portadadepanelsolar/slide2.png');
-	}
-	50%{
-		background-image: url('../img/Fotos/portadadepanelsolar/slide2.png');
-	}
-
-
-	51%{
-		background-image: url('../img/Fotos/portadadepanelsolar/slide4.png');
-	}
-	75%{
-		background-image: url('../img/Fotos/portadadepanelsolar/slide4.png');
-	}
-	
-
-	76%{
-		background-image: url('../img/Fotos/portadadepanelsolar/slide1.png');
-	}
-	100%{
-		background-image: url('../img/Fotos/portadadepanelsolar/slide1.png');
-	}
-
-}
-
-/***********ABOUT************/
-
-.img-fluid {
-	width: 400px;
-	margin-left: 70px;
-}
-
-.section-padding {
-	padding: 50px 0;
-}
-.carousel-item {
-	height: 100vh;
-	min-height: 300px;
-}
-.carousel-caption {
-	bottom: 220px;
-	z-index: 2;
-}
-.carousel-caption h5 {
-	font-size: 45px;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	margin-top: 25px;
-}
-.carousel-caption p {
-	width: 60%;
-	margin: auto;
-	font-size: 18px;
-	line-height: 1.9;
-}
-.carousel-inner:before {
-	content: '';
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	background: rgba(0, 0, 0, 0.7);
-	z-index: 1;
-}
-.navbar .getstarted {
-	background: #106eea;
-	margin-left: 30px;
-	border-radius: 4px;
-	font-weight: 400;
-	color: #fff;
-	text-decoration: none;
-	padding: .5rem 1rem;
-	line-height: 2.3;
-}
+/***************** NAVBAR *****************/
 .navbar-nav a {
-	font-size: 15px;
-	text-transform: uppercase;
-	font-weight: 500;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
 }
+
+.navbar-nav a:hover {
+	border-bottom: 1px solid #6ab11f;
+	transition: 0.3s;
+  }
+
 .navbar-light .navbar-brand {
-	color: #000;
-	font-size: 25px;
-	text-transform: uppercase;
-	font-weight: bold;
-	letter-spacing: 2px;
+  color: #000;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
-.navbar-light .navbar-brand:focus, .navbar-licard-bodyght .navbar-brand:hover {
-	color: #000;
+.navbar-light .navbar-brand:focus,
+.navbar-licard-bodyght .navbar-brand:hover {
+  color: #000;
 }
 .navbar-light .navbar-nav .nav-link {
-	color: #000;
+  color: #000;
 }
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-	color: #000;
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #000;
 }
 .w-100 {
-	height: 100vh;
+  height: 100vh;
 }
 .navbar-toggler {
-	padding: 1px 5px;
-	font-size: 18px;
-	line-height: 0.3;
-	background: #fff;
+  padding: 1px 5px;
+  font-size: 18px;
+  line-height: 0.3;
+  background: #fff;
 }
 
+/************** SLIDER *****************/
+.banner {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 50px);
+  background-color: #f5f5f5;
+  background-size: cover;
+  background-position: center;
+  transition: all 0.1s ease-out;
+  background-image: url('../assets/img/banner-1.jpg');
+  animation: banner 28s infinite linear;
+}
+.banner-content {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background-color: rgba(0, 22, 40, 0.335);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner-content h1 {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 30px;
+  font-size: 40px;
+  text-align: center;
+}
 
-/********ABOUT************/
+@keyframes banner {
+  0% {
+    background-image: url('../img/Fotos/portadadepanelsolar/slide2.png');
+  }
+  25% {
+    background-image: url('../img/Fotos/portadadepanelsolar/slide2.png');
+  }
+
+  26% {
+    background-image: url('../img/Fotos/portadadepanelsolar/slide2.png');
+  }
+  50% {
+    background-image: url('../img/Fotos/portadadepanelsolar/slide2.png');
+  }
+
+  51% {
+    background-image: url('../img/Fotos/portadadepanelsolar/slide4.png');
+  }
+  75% {
+    background-image: url('../img/Fotos/portadadepanelsolar/slide4.png');
+  }
+
+  76% {
+    background-image: url('../img/Fotos/portadadepanelsolar/slide1.png');
+  }
+  100% {
+    background-image: url('../img/Fotos/portadadepanelsolar/slide1.png');
+  }
+}
+
+/**************** ABOUT *****************/
+.section-padding {
+  padding: 50px 0;
+}
+
+.img-fluid {
+  width: 400px;
+  margin-left: 70px;
+}
 
 #about {
-	background-color: #414141;
+  background-color: #414141;
 }
 
 .about-text {
-	color: #fff;
+  color: #fff;
 }
-.about-text p{
-	margin-top: 3rem;
-	font-size: 24px;
+.about-text p {
+  margin-top: 3rem;
+  font-size: 22px;
 }
 
-/***SERVICES****/
-
-.portfolio .card {
-	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
-}
-.team .card {
-	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+/****************** SERVICES *******************/
+.services .card-body i {
+  font-size: 50px;
 }
 
 .card-body {
-	padding: 3rem 1rem;
+  padding: 3rem 1rem;
 }
+
 .card-title-Especial {
-	margin-top: 28px;
-	font-size: 25px;
+  margin-top: 28px;
+  font-size: 25px;
 }
-.services .card-body i {
-	font-size: 50px;
-}
+
 .team .card-body i {
-	font-size: 30px;
+  font-size: 30px;
 }
 
 .card-title {
-	margin-top: 2rem;
-	font-size: 25px;
+  margin-top: 2rem;
+  font-size: 25px;
 }
 
 .lead {
-	font-size: 16px;
+  font-size: 16px;
 }
-
-
-/***********portfolio***************/
-
-#portfolio {
-	background-color: #ccf99d;
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-	.carousel-caption {
-		bottom: 370px;
-	}
-	.carousel-caption p {
-		width: 100%;
-	}
-	.card {
-		margin-bottom: 30px;
-	}
-	.img-area img {
-		width: 100%;
-	}
-}
-@media only screen and (max-width: 767px) {
-	.navbar-nav {
-		text-align: center;
-	}
-	.carousel-caption {
-		bottom: 125px;
-	}
-	.carousel-caption h5 {
-		font-size: 17px;
-	}
-	.carousel-caption a {
-		padding: 10px 15px;
-		font-size: 15px;
-	}
-	.carousel-caption p {
-		width: 100%;
-		line-height: 1.6;
-		font-size: 12px;
-	}
-	.about-text {
-		padding-top: 50px;
-	}
-	.card {
-		margin-bottom: 30px;
-	}
-}
-
 
 /*********************PRODUCT*******************/
+.portfolio .card {
+  box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+#portfolio {
+  background-color: #ccf99d;
+}
 
 .mb-1 {
-	font-size: 24px;
+  font-size: 24px;
 }
-/*************************************************************************************************************************/
-/*************CONTACTO*************/
 
-
+/*********************** CONTACTO ***********************/
 .contact-bg {
-    height: 40vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(../img/Fotos/Contact\ us.jpg);
-    background-position: 50% 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    text-align: center;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  height: 40vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(../img/Fotos/History\ Panel\ solar.jpg);
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-bg h3 {
-    font-size: 1.3rem;
-    font-weight: 400;
+  font-size: 1.3rem;
+  font-weight: 400;
 }
 
 .contact-bg h2 {
-    font-size: 3rem;
-    text-transform: uppercase;
-    padding: 0.4rem 0;
-    letter-spacing: 4px;
+  font-size: 3rem;
+  text-transform: uppercase;
+  padding: 0.4rem 0;
+  letter-spacing: 4px;
 }
 
 .line div {
-    margin: 0 0.2rem;
+  margin: 0 0.2rem;
 }
 
 .line div:nth-child(1),
 .line div:nth-child(3) {
-    height: 3px;
-    width: 70px;
-    background: #82B64A;
-    border-radius: 5px;
+  height: 3px;
+  width: 70px;
+  background: #82b64a;
+  border-radius: 5px;
 }
 
 .line {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .line div:nth-child(2) {
-    width: 10px;
-    height: 10px;
-    background: #82B64A;
-    border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background: #82b64a;
+  border-radius: 50%;
 }
 
 .text {
-    font-weight: 300;
-    opacity: 0.9;
+  font-weight: 300;
+  opacity: 0.9;
 }
 
 .contact-bg .text {
-    margin: 1.6rem 0;
+  margin: 1.6rem 0;
 }
 
 .contact-body {
-    max-width: 1320px;
-    margin: 0 auto;
-    padding: 0 1rem;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 1rem;
 }
 
 .contact-info {
-    margin: 2rem 0;
-    text-align: center;
-    padding: 2rem 0;
+  margin: 2rem 0;
+  text-align: center;
+  padding: 2rem 0;
 }
 
 .contact-info span {
-    display: block;
+  display: block;
 }
 
 .contact-info div {
-    margin: 0.8rem 0;
-    padding: 1rem;
+  margin: 0.8rem 0;
+  padding: 1rem;
 }
 
 .contact-info span .fas {
-    font-size: 2rem;
-    padding-bottom: 0.9rem;
-    color: #82B64A;
+  font-size: 2rem;
+  padding-bottom: 0.9rem;
+  color: #82b64a;
 }
 
 .contact-info div span:nth-child(2) {
-    font-weight: 500;
-    font-size: 1.1rem;
+  font-weight: 500;
+  font-size: 1.1rem;
 }
 
 .contact-info .text {
-    padding-top: 0.4rem;
+  padding-top: 0.4rem;
 }
 
 .contact-form {
-    padding: 2rem 0;
-    border-top: 1px solid #c7c7c7;
+  padding: 2rem 0;
+  border-top: 1px solid #c7c7c7;
 }
 
 .contact-form form {
-    padding-bottom: 1rem;
+  padding-bottom: 1rem;
 }
 
 .form-control {
-    width: 100%;
-    border: 1.5px solid #c7c7c7;
-    border-radius: 5px;
-    padding: 0.7rem;
-    margin: 0.6rem 0;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
-    outline: 0;
+  width: 100%;
+  border: 1.5px solid #c7c7c7;
+  border-radius: 5px;
+  padding: 0.7rem;
+  margin: 0.6rem 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  outline: 0;
 }
 
 .form-control:focus {
-    box-shadow: 0 0 6px -3px rgba(48, 48, 48, 1);
+  box-shadow: 0 0 6px -3px rgba(48, 48, 48, 1);
 }
 
 .contact-form form div {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 0.6rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 0.6rem;
 }
 
 .send-btn {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
-    text-transform: uppercase;
-    color: #212529;
-    font-weight: 400;
-    background: #82B64A;
-    border: none;
-    border-radius: 5px;
-    padding: 0.7rem 1.5rem;
-    cursor: pointer;
-    transition: all 0.4s ease;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #212529;
+  font-weight: 400;
+  background: #82b64a;
+  border: none;
+  border-radius: 5px;
+  padding: 0.7rem 1.5rem;
+  cursor: pointer;
+  transition: all 0.4s ease;
 }
 
 .send-btn:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
-.contact-form>div img {
-    width: 85%;
+.contact-form > div img {
+  width: 85%;
 }
 
-.contact-form>div {
-    margin: 0 auto;
-    text-align: center;
+.contact-form > div {
+  margin: 0 auto;
+  text-align: center;
 }
 
 .contact-footer {
-    padding: 2rem 0;
-    background: #212529;
+  padding: 2rem 0;
+  background: #212529;
 }
 
 .contact-footer h3 {
-    font-size: 1.3rem;
-    color: #fff;
-    margin-bottom: 1rem;
-    text-align: center;
+  font-size: 1.3rem;
+  color: #fff;
+  margin-bottom: 1rem;
+  text-align: center;
 }
 
-.social-links {
-    display: flex;
-    justify-content: center;
+/**************** FOOTER ********************/
+.text-reset {
+  text-decoration: none;
 }
 
-.social-links a {
-    text-decoration: none;
-    width: 40px;
-    height: 40px;
-    color: #fff;
-    border: 2px solid #fff;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0.4rem;
-    transition: all 0.4s ease;
-}
-
-.social-links a:hover {
-    color: #fccb3a;
-    border-color: #fccb3a;
-}
-
-@media screen and (min-width: 768px) {
-    .contact-bg .text {
-        width: 70%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .contact-info {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
+/**************** MEDIA ********************/
+@media screen and (min-width: 1200px) {
+  .contact-info {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 @media screen and (min-width: 992px) {
-    .contact-bg .text {
-        width: 50%;
-    }
+  .contact-bg .text {
+    width: 50%;
+  }
 
-    .contact-form {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        align-items: center;
-    }
+  .contact-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
 }
 
-@media screen and (min-width: 1200px) {
-    .contact-info {
-        grid-template-columns: repeat(4, 1fr);
-    }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .carousel-caption {
+    bottom: 370px;
+  }
+  .carousel-caption p {
+    width: 100%;
+  }
+  .card {
+    margin-bottom: 30px;
+  }
+  .img-area img {
+    width: 100%;
+  }
 }
 
+@media screen and (min-width: 768px) {
+  .contact-bg .text {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-/***********FOOTER***************/
+  .contact-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 
-.text-reset {
-	text-decoration: none;
+@media only screen and (max-width: 767px) {
+  .navbar-nav {
+    text-align: center;
+  }
+  .carousel-caption {
+    bottom: 125px;
+  }
+  .carousel-caption h5 {
+    font-size: 17px;
+  }
+  .carousel-caption a {
+    padding: 10px 15px;
+    font-size: 15px;
+  }
+  .carousel-caption p {
+    width: 100%;
+    line-height: 1.6;
+    font-size: 12px;
+  }
+  .about-text {
+    padding-top: 50px;
+  }
+  .card {
+    margin-bottom: 30px;
+  }
 }
