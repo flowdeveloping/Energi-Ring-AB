@@ -3,7 +3,7 @@
 	font-family: 'Montserrat', sans-serif;
 }
 body {
-	background: #f1fbff;
+	background: #ffffff;
 }
 
 
@@ -15,7 +15,7 @@ body {
     text-transform: uppercase;
     color: #212529;
     font-weight: 400;
-    background: #82B64A;
+    background: #6ab11f;
     border: none;
     border-radius: 5px;
     padding: 0.7rem 1.5rem;
@@ -27,7 +27,7 @@ body {
 
 .btn:hover {
 	
-    background: #6ab11f;
+    background: #82B64A;
 	color: #fff;
 }
 
@@ -81,34 +81,34 @@ h2 {
 } */
 @keyframes banner{
 	0%{
-		background-image: url('../img/Fotos/portadadepanelsolar/Panel\ Solar.png');
+		background-image: url('../img/Fotos/portadadepanelsolar/slide2.png');
 	}
 	25%{
-		background-image: url('../img/Fotos/portadadepanelsolar/Panel\ Solar.png');
+		background-image: url('../img/Fotos/portadadepanelsolar/slide2.png');
 	}
 
 
 	26%{
-		background-image: url('../img/Fotos/portadadepanelsolar/portada4.jpg');
+		background-image: url('../img/Fotos/portadadepanelsolar/slide2.png');
 	}
 	50%{
-		background-image: url('../img/Fotos/portadadepanelsolar/portada4.jpg');
+		background-image: url('../img/Fotos/portadadepanelsolar/slide2.png');
 	}
 
 
 	51%{
-		background-image: url('../img/Fotos/portadadepanelsolar/Panel\ Solar\ 3.png');
+		background-image: url('../img/Fotos/portadadepanelsolar/slide4.png');
 	}
 	75%{
-		background-image: url('../img/Fotos/portadadepanelsolar/Panel\ Solar\ 3.png');
+		background-image: url('../img/Fotos/portadadepanelsolar/slide4.png');
 	}
 	
 
 	76%{
-		background-image: url('../img/Fotos/portadadepanelsolar/servicios2.jpg');
+		background-image: url('../img/Fotos/portadadepanelsolar/slide1.png');
 	}
 	100%{
-		background-image: url('../img/Fotos/portadadepanelsolar/servicios2.jpg');
+		background-image: url('../img/Fotos/portadadepanelsolar/slide1.png');
 	}
 
 }
@@ -190,6 +190,20 @@ h2 {
 }
 
 
+/********ABOUT************/
+
+#about {
+	background-color: #414141;
+}
+
+.about-text {
+	color: #fff;
+}
+.about-text p{
+	margin-top: 3rem;
+	font-size: 24px;
+}
+
 /***SERVICES****/
 
 .portfolio .card {
@@ -222,6 +236,12 @@ h2 {
 	font-size: 16px;
 }
 
+
+/***********portfolio***************/
+
+#portfolio {
+	background-color: #ccf99d;
+}
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.carousel-caption {
@@ -491,4 +511,11 @@ h2 {
     .contact-info {
         grid-template-columns: repeat(4, 1fr);
     }
+}
+
+
+/***********FOOTER***************/
+
+.text-reset {
+	text-decoration: none;
 }
