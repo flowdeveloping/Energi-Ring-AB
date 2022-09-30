@@ -1,0 +1,163 @@
+
+<!--MAIN -->
+<div class="row row-cols-1 row-cols-md-3 g-4" id="portfolio">
+    <div class="col">
+      <div class="card">
+        <img src="./img/Fotos/Productspanelsolar/panelsolar3casa.jpg" alt="Image Description">
+        <div class="card-body">
+          <h5 class="card-title">Mindre paketet</h5>
+          <span class="d-block text-muted font-size-1 mb-3">10 st. Premiumpaneler inkl. batteri
+            Svart. /. 395 W</span>
+          <p class="card-text">Ingår i paketet: <br>
+            - Hybridväxelriktare  <br>
+            - 9,6 KWh Batteri <br>
+            - Uttag för nödström vid strömavbrott  <br>
+            –  slipp stå utan ström vid strömavbrott <br>
+            - Batteri</p> 
+          <div class="col text-center">
+            <button type="button" class="btn btn-warning btn-lg " href="#contact" >Offertförfrågan mindre paketet</button>
+         </div> 
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="./img/Fotos/Productspanelsolar/panelsolar3casa.jpg" alt="Image Description" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Medelstora paketet</h5>
+          <span class="d-block text-muted font-size-1 mb-3">18 st. Premiumpaneler inkl. batteri
+            Svart. / 395 W</span>
+          <p class="card-text">Ingår i paketet: <br>
+            - Hybridväxelriktare  <br>
+            - 9,6 KWh Batteri <br>
+            - Uttag för nödström vid strömavbrott  <br>
+            –  slipp stå utan ström vid strömavbrott <br>
+            - Batteri</p>
+          <div class="col text-center">
+            <button type="button" class="btn btn-warning btn-lg " href="#contact" >Offertförfrågan mindre paketet</button>
+         </div> 
+        </div>
+      </div>
+    </div>
+    <div class="col">
+        <div class="card">
+          <img src="./img/Fotos/Productspanelsolar/panelsolar3casa.jpg" alt="Image Description">
+          <div class="card-body">
+            <h5 class="card-title">Stora paketet</h5>
+            <span class="d-block text-muted font-size-1 mb-3">27 st. Premiumpaneler inkl. batteriSvart. / 395 W</span>
+
+            <p class="card-text">Ingår i paketet: <br>
+                - Hybridväxelriktare  <br>
+                - 9,6 KWh Batteri <br>
+                - Uttag för nödström vid strömavbrott  <br>
+                –  slipp stå utan ström vid strömavbrott <br>
+                - Batteri</p></p>
+            <div class="col text-center">
+                <button  type="button" class="btn btn-warning btn-lg " href="#contact" >Offertförfrågan mindre paketet</button>
+             </div> 
+        </div>
+        </div>
+    </div>
+    
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!--portfolio strats-->
+      <section id="portfolio" class="portfolio section-padding">
+        <!-- Products Section -->
+        <div class="container space-2">
+          <!-- Title -->
+          <div class="w-md-80 w-lg-40 text-center mx-md-auto mb-5 mb-md-9">
+            <h2>Våra färdiga solcellspaket</h2>
+            <h5>Offerter är självklart kostnadsfria. Tala om för oss vart du är behov av så skräddarsyr vi offerten.</h5>
+          </div>
+  
+          <div class="row justify-content-around">
+            <div class="col-sm-6 col-lg-3 mb-3 mb-sm-5">
+              <!-- Card -->
+              <div class="cardProduct border shadow-none d-block">
+                <img class="card-img-top" src="./img/Fotos/Productspanelsolar/panelsolar3casa.jpg" alt="Image Description">
+                <div class="card-footer text-center py-4">
+                  <h3 class="mb-1">Mindre paketet</h3>
+                  <span class="d-block text-muted font-size-1 mb-3">10 st. Premiumpaneler inkl. batteri
+                    Svart. /. 395 W</span>
+                    <p class="producto395">Ingår i paketet: <br>
+                      - Hybridväxelriktare  <br>
+                      - 9,6 KWh Batteri <br>
+                      - Uttag för nödström vid strömavbrott  <br>
+                      –  slipp stå utan ström vid strömavbrott <br>
+                      - Batteri</p> 
+                  <a class="btn btn-sm btn-outline-primary btn-pill transition-3d-hover px-5"
+                    href="#contact">Offertförfrågan mindre paketet</a>
+                </div>
+              </div>
+              <!-- End Card -->
+            </div>
+            <div class="col-sm-6 col-lg-3 mb-3 mb-sm-5">
+              <!-- Card -->
+              <div class="cardProduct border shadow-none d-block">
+                <img class="card-img-top" src="./img/Fotos/Productspanelsolar/panelsolar3casa.jpg" alt="Image Description">
+                <div class="card-footer text-center py-4">
+                  <h3 class="mb-1">Medelstora paketet</h3>
+                  <span class="d-block text-muted font-size-1 mb-3">18 st. Premiumpaneler inkl. batteri
+                    Svart. / 395 W</span>
+                    <p class="producto395">Ingår i paketet: <br>
+                      - Hybridväxelriktare  <br>
+                      - 9,6 KWh Batteri <br>
+                      - Uttag för nödström vid strömavbrott  <br>
+                      –  slipp stå utan ström vid strömavbrott <br>
+                      - Batteri</p>
+                  <a class="btn btn-sm btn-outline-primary btn-pill transition-3d-hover px-5"
+                    href="#contact">Offertförfrågan mindre paketet</a>
+                </div>
+              </div>
+              <!-- End Card -->
+            </div>
+            <div class="col-sm-6 col-lg-3 mb-3 mb-sm-5">
+              <!-- Card -->
+              <div class="cardProduct border shadow-none d-block">
+                <img class="card-img-top" src="./img/Fotos/Productspanelsolar/panelsolar3casa.jpg" alt="Image Description">
+                <div class="card-footer text-center py-4">
+                  <h3 class="mb-1">Stora paketet</h3>
+                  <span class="d-block text-muted font-size-1 mb-3">27 st. Premiumpaneler inkl. batteriSvart. / 395 W</span>
+                    <p class="producto395">Ingår i paketet: <br>
+                      - Hybridväxelriktare  <br>
+                      - 9,6 KWh Batteri <br>
+                      - Uttag för nödström vid strömavbrott  <br>
+                      –  slipp stå utan ström vid strömavbrott <br>
+                      - Batteri</p>
+                  <a class="btn btn-sm btn-outline-primary btn-pill transition-3d-hover px-5"
+                    href="#contact">Offertförfrågan mindre paketet</a>
+                </div>
+              </div>
+              <!-- End Card -->
+            </div>
+          </div>
+        </div>
+        <!-- End Products Section -->
+    </section>
+    <!-- portfolio ends -->

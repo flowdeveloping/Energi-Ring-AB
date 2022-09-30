@@ -173,10 +173,10 @@ h2 {
   padding: 3rem 1rem;
 }
 
-.card-title-Especial {
+/* .card-title-Especial {
   margin-top: 28px;
   font-size: 25px;
-}
+} */
 
 .card-title{
   font-size: 25px;
@@ -203,7 +203,10 @@ h2 {
 }
 
 #portfolio {
-  background-color: #ccf99d;
+ 
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 50px;
 }
 
 .mb-1 {
@@ -212,6 +215,11 @@ h2 {
 
 .cardProduct{
   background-color: #fff;
+}
+
+#cardProductos {
+  background-color: #fff;
+  text-align: center;
 }
 
 /*********************** CONTACTO ***********************/
