@@ -31,6 +31,11 @@ h2 {
   font-size: 40px;
   text-align: center;
   margin-bottom: 20px;
+  color: #fff;
+}
+
+h5{
+  color: white;
 }
 
 /***************** NAVBAR *****************/
@@ -178,7 +183,9 @@ h2 {
 .card-body {
   padding: 3rem 1rem;
 }
-
+#services .servicesTitulo{
+  color: #212529;
+}
 /* .card-title-Especial {
   margin-top: 28px;
   font-size: 25px;
