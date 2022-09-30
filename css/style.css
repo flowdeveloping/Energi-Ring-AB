@@ -243,6 +243,10 @@ main {
   text-align: center;
 }
 
+#cardProductos h5 {
+  color: #212529;
+}
+
 
 
 /*********************** CONTACTO ***********************/
