@@ -178,6 +178,10 @@ h2 {
   font-size: 25px;
 }
 
+.card-title{
+  font-size: 25px;
+}
+
 .team .card-body i {
   font-size: 30px;
 }
@@ -186,7 +190,9 @@ h2 {
   margin-top: 2rem;
   font-size: 25px;
 }
-
+.card-title p{
+  font-size: 16px;
+}
 .lead {
   font-size: 16px;
 }
@@ -210,6 +216,10 @@ h2 {
 
 /*********************** CONTACTO ***********************/
 
+.contenedorCheckbox {
+  display: flex;
+  justify-content: space-around;
+}
 
 .contact-bg {
   height: 40vh;
