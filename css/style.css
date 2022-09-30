@@ -140,7 +140,7 @@ h2 {
 
 .img-fluid {
   width: 400px;
-  margin-left: 70px;
+  /* margin-left: 70px; */
 }
 
 #about {
@@ -156,6 +156,15 @@ h2 {
 }
 
 /****************** SERVICES *******************/
+
+.card{
+  background-color: rgb(39, 39, 39);
+}
+
+.card:hover{
+  background-color: rgb(0, 0, 0);
+}
+
 .services .card-body i {
   font-size: 50px;
 }
@@ -195,7 +204,13 @@ h2 {
   font-size: 24px;
 }
 
+.cardProduct{
+  background-color: #fff;
+}
+
 /*********************** CONTACTO ***********************/
+
+
 .contact-bg {
   height: 40vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(../img/Fotos/History\ Panel\ solar.jpg);
@@ -259,6 +274,7 @@ h2 {
   max-width: 1320px;
   margin: 0 auto;
   padding: 0 1rem;
+  
 }
 
 .contact-info {
@@ -325,7 +341,7 @@ h2 {
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
   text-transform: uppercase;
-  color: #212529;
+  color: #ffffff;
   font-weight: 400;
   background: #82b64a;
   border: none;
@@ -363,6 +379,11 @@ h2 {
 /**************** FOOTER ********************/
 .text-reset {
   text-decoration: none;
+}
+
+h6 a{
+  text-decoration: none;
+  color: #fff;
 }
 
 /**************** MEDIA ********************/
